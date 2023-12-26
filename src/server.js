@@ -6,7 +6,6 @@ const path = require('path')
 const app = express()// app express
 const port = process.env.PORT || 8888 //port
 const hostname = process.env.HOST_NAME
-
 //khai báo route
 app.get('/', (req, res) => {
     res.send('Hello World! Express với Quang Thái')
