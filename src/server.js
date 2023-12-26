@@ -2,7 +2,7 @@ const { render } = require('ejs')
 const express = require('express')// common js
 const path = require('path')
 const app = express()// app express
-const port = 9000//port
+const port = process.env //port
 
 //khai báo route
 app.get('/', (req, res) => {
