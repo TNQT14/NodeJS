@@ -8,7 +8,7 @@ const port = process.env.PORT || 8888 //port
 const hostname = process.env.HOST_NAME
 //khai báo route
 app.get('/', (req, res) => {
-    res.send('Hello World! Express với Quang Thái')
+    res.send('Hello World! Express với Quang Thái với nodemon')
 })
 
 //khai báo route
